@@ -10,7 +10,7 @@ import Footer from './Footer'
 
 export default function BriamsHealthLanding() {
   return (
-    <div className="min-h-screen bg-white font-sans text-navy antialiased">
+    <div className="min-h-screen bg-white font-sans text-navy antialiased overflow-x-hidden">
       <Navbar />
       <Hero />
       <Features />
