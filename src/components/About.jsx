@@ -8,8 +8,8 @@ export default function About() {
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-[4fr_6fr]">
 
           {/* Left Box: About BriamsHealth */}
-          <div className="relative flex flex-col overflow-hidden rounded-[2.5rem] bg-white p-8 sm:p-12 shadow-sm border border-gray-100 min-h-[500px]">
-            <div className="relative z-10 w-full sm:w-[65%]">
+          <div className="relative flex flex-col overflow-hidden rounded-[2.5rem] bg-white pt-8 px-8 sm:p-12 pb-0 sm:pb-12 shadow-sm border border-gray-100 sm:min-h-[500px]">
+            <div className="relative z-10 w-full sm:w-[50%] lg:w-[55%] pb-6 sm:pb-0">
               <h2 className="text-[28px] font-bold text-[#021833] tracking-tight">About BriamsHealth</h2>
               <p className="mt-4 text-[14px] leading-relaxed text-[#021833]/80 font-medium">
                 We are a digital health company passionate about making healthcare accessible, affordable, and effective, through technology.
@@ -31,8 +31,8 @@ export default function About() {
               </div>
             </div>
 
-            {/* Absolute Doctor Image */}
-            <div className="absolute bottom-0 right-0 z-0 w-[55%] sm:w-[50%] flex items-end justify-end pointer-events-none">
+            {/* Doctor Image */}
+            <div className="relative sm:absolute sm:bottom-0 sm:right-0 z-0 w-[80%] mx-auto sm:mx-0 sm:w-[50%] lg:w-[45%] flex items-end justify-center sm:justify-end pointer-events-none mt-auto">
               <img
                 src={doctorImg}
                 alt="Doctor"

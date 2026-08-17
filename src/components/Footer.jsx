@@ -52,12 +52,12 @@ export default function Footer() {
               <a href="mailto:info@briamshealth.com" className="flex items-center gap-3 text-[15px] text-white/80 hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal rounded-sm">
                 <Mail className="h-5 w-5 shrink-0" strokeWidth={1.5} /> info@briamshealth.com
               </a>
-              <a href="tel:+233551234567" className="flex items-center gap-3 text-[15px] text-white/80 hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal rounded-sm">
-                <Phone className="h-5 w-5 shrink-0" strokeWidth={1.5} /> +233 55 123 4567
+              <a href="tel:+233539246331" className="flex items-center gap-3 text-[15px] text-white/80 hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal rounded-sm">
+                <Phone className="h-5 w-5 shrink-0" strokeWidth={1.5} /> +233 539246331
               </a>
-              <p className="flex items-center gap-3 text-[15px] text-white/80">
+              <a href="https://maps.google.com/?q=Accra,+Ghana" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-[15px] text-white/80 hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal rounded-sm">
                 <MapPin className="h-5 w-5 shrink-0" strokeWidth={1.5} /> Accra, Ghana
-              </p>
+              </a>
             </div>
             <div className="mt-6 flex items-center gap-4">
               <a href="#" className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[#021833] transition-transform hover:scale-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal focus-visible:ring-offset-2 focus-visible:ring-offset-[#021833]">
