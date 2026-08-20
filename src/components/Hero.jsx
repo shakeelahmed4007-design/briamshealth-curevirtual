@@ -7,11 +7,11 @@ export default function Hero() {
     <section id="home" className="relative overflow-hidden bg-white min-h-[calc(100vh-80px)] flex items-center">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-white via-white to-gray-50" />
       <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-10 px-5 py-10 sm:px-8 lg:grid-cols-[1fr_1.1fr] lg:gap-14 lg:py-0">
-        
+
         {/* Left Content */}
         <div className="relative z-10">
-          <div 
-            className="inline-flex items-center gap-2 rounded-full border border-teal/20 bg-teal-50 px-4 py-1.5 shadow-sm animate-fade-slide-down" 
+          <div
+            className="inline-flex items-center gap-2 rounded-full border border-teal/20 bg-teal-50 px-4 py-1.5 shadow-sm animate-fade-slide-down"
             style={{ animationDelay: '100ms' }}
           >
             <div className="flex h-5 w-5 items-center justify-center rounded-full bg-teal text-white">
@@ -28,19 +28,19 @@ export default function Hero() {
             <span className="block text-teal animate-fade-slide-up" style={{ animationDelay: '400ms' }}>Anywhere.</span>
           </h1>
 
-          <p 
-            className="mt-7 max-w-lg text-[17px] leading-relaxed text-black font-medium animate-fade-in" 
+          <p
+            className="mt-7 max-w-lg text-[17px] leading-relaxed text-black font-medium animate-fade-in"
             style={{ animationDelay: '500ms' }}
           >
             BriamsHealth is building digital healthcare solutions that connect patients, healthcare professionals, and facilities through secure, accessible technology.
           </p>
 
-          <div 
-            className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center animate-fade-slide-up" 
+          <div
+            className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center animate-fade-slide-up"
             style={{ animationDelay: '600ms' }}
           >
             <a
-              href="#curevirtual"
+              href="https://curevirtual.com" target="_blank" rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-full bg-[#021833] px-8 py-3.5 text-[15px] font-semibold text-white shadow-lg transition-all duration-300 hover:bg-navy-800 hover:-translate-y-1 hover:shadow-[0_15px_40px_rgba(2,24,51,0.2)] min-h-[44px]"
             >
               Explore CureVirtual <ArrowRight className="h-4 w-4" />
@@ -53,8 +53,8 @@ export default function Hero() {
             </a>
           </div>
 
-          <div 
-            className="mt-12 flex items-center gap-3 animate-fade-slide-up" 
+          <div
+            className="mt-12 flex items-center gap-3 animate-fade-slide-up"
             style={{ animationDelay: '700ms' }}
           >
             <img src={ganaImg} alt="Ghana" className="h-[18px] w-auto object-contain" />
@@ -67,26 +67,26 @@ export default function Hero() {
 
         {/* Right Content / Image with Floating Cards */}
         <div className="relative w-full h-[400px] lg:h-[75vh] lg:max-h-[600px] flex items-center justify-center lg:justify-end mt-10 lg:mt-0">
-          
+
           {/* Main Background Image - masked smoothly into white background */}
-          <div 
-            className="absolute right-0 top-0 h-full w-full max-w-[600px] overflow-hidden rounded-[40px] opacity-90 lg:opacity-100 animate-fade-scale" 
+          <div
+            className="absolute right-0 top-0 h-full w-full max-w-[600px] overflow-hidden rounded-[40px] opacity-90 lg:opacity-100 animate-fade-scale"
             style={{ animationDelay: '400ms' }}
           >
-             {/* Gradient fade on left to blend into the white section */}
-             <div className="absolute inset-y-0 left-0 z-10 w-1/3 bg-gradient-to-r from-white to-transparent" />
-             <div className="absolute inset-x-0 bottom-0 z-10 h-1/4 bg-gradient-to-t from-white to-transparent" />
-             
-             <img 
-               src={heroBg} 
-               alt="Telehealth Consultation" 
-               className="h-full w-full object-cover object-center" 
-             />
+            {/* Gradient fade on left to blend into the white section */}
+            <div className="absolute inset-y-0 left-0 z-10 w-1/3 bg-gradient-to-r from-white to-transparent" />
+            <div className="absolute inset-x-0 bottom-0 z-10 h-1/4 bg-gradient-to-t from-white to-transparent" />
+
+            <img
+              src={heroBg}
+              alt="Telehealth Consultation"
+              className="h-full w-full object-cover object-center"
+            />
           </div>
 
           {/* Floating Cards Container */}
           <div className="absolute right-0 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-6 z-20 w-[280px]">
-            
+
             {/* Card 1 */}
             <div className="animate-fade-slide-right" style={{ animationDelay: '800ms' }}>
               <div className="animate-float-1">

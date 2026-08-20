@@ -48,7 +48,7 @@ export default function Solutions() {
                     src={s.image}
                     alt={s.title}
                     className="w-full max-h-[90%] object-contain object-right-bottom sm:object-center-bottom"
-                    style={{ 
+                    style={{
                       maskImage: 'linear-gradient(to bottom, black 65%, transparent 100%)',
                       WebkitMaskImage: 'linear-gradient(to bottom, black 65%, transparent 100%)'
                     }}
